@@ -11,6 +11,7 @@ export default {
 </script>
 
 <style>
+/* import url(./style/index.css); // 修改eleUI中该css加入app.vue中会被覆盖，不会生效*/
 html,
 body,
 #app {
