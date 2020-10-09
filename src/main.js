@@ -8,7 +8,7 @@ import './style/index.css' // 修改eleUI中该css加入app.vue中会被覆盖�
 
 Vue.config.productionTip = false;
 Vue.prototype.$echarts = ECharts;
-Vue.component("v-echart", VueECharts); // 注册组件
+Vue.component("v-chart", VueECharts); // 注册组件
 
 new Vue({
   router,
